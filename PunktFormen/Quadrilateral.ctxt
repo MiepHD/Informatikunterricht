@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Quadrilateral
+comment0.text=\r\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ Viereck.\r\n\ \r\n\ @author\ Lia\ \r\n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\r\n
+comment1.params=A\ B\ C\ D
+comment1.target=Quadrilateral(Point,\ Point,\ Point,\ Point)
+comment2.params=
+comment2.target=Quadrilateral()
+comment3.params=
+comment3.target=double\ getPerimeter()
+comment4.params=
+comment4.target=double\ getArea()
+numComments=5

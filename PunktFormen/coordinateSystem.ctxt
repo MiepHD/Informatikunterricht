@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=coordinateSystem
+comment0.text=\r\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ Koordinatensystem.\r\n\ \r\n\ @author\ (Ihr\ Name)\ \r\n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\r\n
+comment1.params=A\ B
+comment1.target=double\ calcDistance(Point,\ Point)
+comment2.params=A\ B\ C
+comment2.target=double\ calcTriangle(Point,\ Point,\ Point)
+comment3.params=A\ B
+comment3.target=double\ calcDistance(double[],\ double[])
+comment4.params=A\ B\ C
+comment4.target=double\ calcTriangle(double[],\ double[],\ double[])
+numComments=5

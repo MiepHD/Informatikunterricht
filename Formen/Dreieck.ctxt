@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Dreieck
+comment0.text=\r\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ Dreieck.\r\n\ \r\n\ @author\ (Ihr\ Name)\ \r\n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\r\n
+comment1.params=x\ y\ laenge\ farbe
+comment1.target=Dreieck(double,\ double,\ double,\ java.lang.String)
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Dreieck\r\n
+comment2.params=
+comment2.target=double\ getUmfang()
+comment3.params=
+comment3.target=double\ getFlaecheninhalt()
+numComments=4

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Sorter
+comment0.text=\r\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ Sorter.\r\n\ \r\n\ @author\ (Ihr\ Name)\ \r\n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\r\n
+comment1.params=array
+comment1.target=int[]\ bubbleSort(int[])
+comment2.params=array\ x\ y
+comment2.target=int[]\ switchArray(int[],\ int,\ int)
+numComments=3

@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Rechteck
+comment0.text=\r\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ Rechteck.\r\n\ \r\n\ @author\ JonasD,\ Lia\r\n\ @version\ 0.0001\r\n
+comment1.params=laenge\ breite\ farbe
+comment1.target=Rechteck(int,\ int,\ java.lang.String)
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Rechteck\r\n
+comment2.params=
+comment2.target=int\ getFlaecheninhalt()
+comment3.params=
+comment3.target=double\ getDiagonale()
+comment4.params=
+comment4.target=int\ getUmfang()
+comment5.params=
+comment5.target=int\ getLaenge()
+comment6.params=
+comment6.target=int\ getBreite()
+comment7.params=laenge
+comment7.target=void\ setLaenge(int)
+comment8.params=breite
+comment8.target=void\ setBreite(int)
+comment9.params=farbe
+comment9.target=void\ setFarbe(java.lang.String)
+numComments=10
