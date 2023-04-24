@@ -20,4 +20,10 @@ public class coordinateSystem
     public static double calcTriangle(double[] A, double[] B, double[] C) {
         return ((B[0] - A[0]) * (C[1] - A[1]) - (B[1] - A[1]) * (C[0] - A[0])) / 2;
     }
+    public static Quadrilateral castToQuadrilateral(Rectangle rectangle) {
+        return new Quadrilateral(new Point(0, 0), new Point(rectangle.width, 0), new Point(rectangle.width, rectangle.height), new Point(0, rectangle.height));
+    }
+    public static ArrayQuadrilateral castToArrayQuadrilateral(Rectangle rectangle) {
+        return new ArrayQuadrilateral(new double[] {0, 0}, new double[] {rectangle.width, 0}, new double[] {rectangle.width, rectangle.height}, new double[] {0, rectangle.height});
+    }
 }

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Rectangle
+comment0.text=\r\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ Rechteck.\r\n\ \r\n\ @author\ Lia\r\n\ @version\ 0.0001\r\n
+comment1.params=pivot\ rotation\ width\ height
+comment1.target=Rectangle(Point,\ double,\ double,\ double)
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Rechteck\r\n
+comment2.params=
+comment2.target=double\ getArea()
+comment3.params=
+comment3.target=double\ getDiagonal()
+comment4.params=
+comment4.target=double\ getPerimeter()
+numComments=5
