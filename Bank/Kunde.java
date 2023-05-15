@@ -33,6 +33,19 @@ public class Kunde {
     }
     
     //Setter
-    
+    public void setNachname(String n) {
+        this.nachname = n;
+    }
+
+    public void setVorname(String v) {
+        this.vorname = v;
+    }
+
+    public void setPrivatadresse(Adresse a) {
+        this.privatadresse = a;
+    }
+    public void setPrivatkonto(Konto k) {
+this.
+    }
     //Getter
 }
