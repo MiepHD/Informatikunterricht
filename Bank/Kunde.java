@@ -45,7 +45,19 @@ public class Kunde {
         this.privatadresse = a;
     }
     public void setPrivatkonto(Konto k) {
-this.
+        this.privatkonto = k;
     }
     //Getter
+    public String getNachname() {
+        return this.nachname
+    }
+    public String getVorname () {
+        return this.vorname;
+    }
+    public Adresse getPrivatadresse() {
+        return this.privatadresse;
+    }
+    public Konto getPrivatkonto() {
+        return this.privatkonto;
+    }
 }
