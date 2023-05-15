@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Konto
+comment1.params=kontonummer\ kontostand\ pin
+comment1.target=Konto(int,\ int,\ int)
+comment2.params=k
+comment2.target=void\ setKontonummer(int)
+comment3.params=k
+comment3.target=void\ setKontostand(int)
+comment4.params=p
+comment4.target=void\ setPin(int)
+comment5.params=
+comment5.target=int\ getKontonummer()
+comment6.params=
+comment6.target=int\ getKontostand()
+comment7.params=
+comment7.target=int\ getPin()
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9

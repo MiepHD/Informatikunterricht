@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Kunde
+comment1.params=nNachname\ nVorname\ nPrivatadresse\ nPrivatkonto
+comment1.target=Kunde(java.lang.String,\ java.lang.String,\ Adresse,\ Konto)
+comment10.params=
+comment10.target=Adresse\ getPrivatadresse()
+comment11.params=
+comment11.target=Konto\ getPrivatkonto()
+comment2.params=kontonummer\ pin\ betrag
+comment2.target=void\ geldAbheben(int,\ int,\ double)
+comment3.params=kontonummer\ betrag
+comment3.target=void\ geldEinzahlen(int,\ double)
+comment4.params=nNachname
+comment4.target=void\ setNachname(java.lang.String)
+comment5.params=nVorname
+comment5.target=void\ setVorname(java.lang.String)
+comment6.params=nPrivatadresse
+comment6.target=void\ setPrivatadresse(Adresse)
+comment7.params=nPrivatkonto
+comment7.target=void\ setPrivatkonto(Konto)
+comment8.params=
+comment8.target=java.lang.String\ getNachname()
+comment9.params=
+comment9.target=java.lang.String\ getVorname()
+numComments=12

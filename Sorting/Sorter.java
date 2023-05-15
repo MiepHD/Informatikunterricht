@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 /**
  * Beschreiben Sie hier die Klasse Sorter.
@@ -5,13 +6,11 @@
  * @author (Ihr Name) 
  * @version (eine Versionsnummer oder ein Datum)
  */
-public class Sorter
-{
-    public int[] bubbleSort(int[] array)
-    {
-        for (int x = array.length - 1; x > 1; x--) {
+public class Sorter {
+    public ArrayList<Integer> bubbleSort(ArrayList<Integer> array) {
+        for (int x = array.size() - 1; x > 1; x--) {
             for (int y = 0; y < x; y++) {
-                if (array[y + 1] < array[y]) {
+                if (array.get(y + 1) < array.get(y)) {
                     System.out.println(array);
                     switchArray(array, y + 1, y);
                 }
@@ -20,10 +19,10 @@ public class Sorter
         System.out.println(array.toString());
         return array;
     }
-    public int[] switchArray(int[] array, int x, int y) {
-        int temp = array[y];
-        array[y] = array[x];
-        array[x] = temp;
+    public ArrayList<Integer> switchArray(ArrayList<Integer> array, int x, int y) {
+        int temp = array.get(y);
+        array.set(y, array.get(x));
+        array.set(x, array.get(temp));
         return array;
     }
 }
