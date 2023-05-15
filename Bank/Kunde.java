@@ -16,7 +16,8 @@ public class Kunde {
     
     //Geld abheben
     public void geldAbheben(int kontonummer, int pin, double betrag) {
-        if () { //Überprüfen, dass eingebene kontonummer und pin mit der im Objekt der Klasse Konto übereinstimmen
+        if (privatkonto.getKontonummer() == kontonummer && privatkonto.getPin() == pin) { //Überprüfen, dass eingebene kontonummer und pin mit der im Objekt der Klasse Konto übereinstimmen
+            privatkonto.setKontostand(privatkonto.getKontostand() - betrag);
             //Kontostand ändern
         } else {
             System.out.println("Falsche Eingabe!");
@@ -25,8 +26,8 @@ public class Kunde {
     
     //Geld einzahlen
     public void geldEinzahlen(int kontonummer, double betrag) {
-        if () { //Überprüfen, dass eingebene kontonummer mit der im Objekt der Klasse Konto übereinstimmt
-            //Kontostand ändern
+        if (privatkonto.getKontonummer() == kontonummer && betrag > 0) { //Überprüfen, dass eingebene kontonummer mit der im Objekt der Klasse Konto übereinstimmt
+            privatkonto.setKontostand(privatkonto.getKontostand() + betrag);//Kontostand ändern
         } else {
             System.out.println("Falsche Eingabe!");
         }
