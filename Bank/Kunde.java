@@ -50,7 +50,7 @@ public class Kunde {
     }
     //Getter
     public String getNachname() {
-        return this.nachname
+        return this.nachname;
     }
     public String getVorname () {
         return this.vorname;

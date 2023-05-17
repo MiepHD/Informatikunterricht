@@ -1,10 +1,10 @@
 public class Konto {
     //Attribute (kontonummer, kontostand & pin)
     private int kontonummer;
-    private int kontostand;
+    private double kontostand;
     private int pin;
     //Konstruktor
-    public Konto(int kontonummer, int kontostand, int pin) {
+    public Konto(int kontonummer, double kontostand, int pin) {
         this.kontonummer = kontonummer;
         this.kontostand = kontostand;
         this.pin = pin;
@@ -14,7 +14,7 @@ public class Konto {
         this.kontonummer = k;
     }
     
-    public void setKontostand(int k) {
+    public void setKontostand(double k) {
         this.kontostand = k;
     }
     
@@ -28,7 +28,7 @@ public class Konto {
         return this.kontonummer;
     }
     
-    public int getKontostand() {
+    public double getKontostand() {
         return this.kontostand;
     }
     
