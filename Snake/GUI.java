@@ -23,4 +23,12 @@ public class GUI extends Frame {
         this.frame.setLayout(new GridLayout(16, 16));
         this.frame.pack();
     }
+
+    public void repaint(ArrayList<Point> points) {
+        for (Point point : points) {
+            if (!(this.points[point.x][point.y] == point.color)) {
+
+            }
+        }
+    }
 }

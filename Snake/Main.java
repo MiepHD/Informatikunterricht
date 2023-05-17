@@ -19,6 +19,7 @@ public class Main {
                 for (Coordinates coor : snake.getPositions()) {
                     points.add(new Point(coor, Color.BLUE));
                 }
+                gui.repaint();
             }
         };
         executor.scheduleAtFixedRate(runnable, 0, 10, TimeUnit.MILLISECONDS);
